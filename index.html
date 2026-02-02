@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bassem Jadoui - Software Engineer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Bassem<span class="highlight">.dev</span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Bassem Jadoui</h1>
+                <h2 class="hero-title">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Code whisperer by day, bug exorcist by night. I architect e-learning platforms, 
+                    tame APIs, and deploy pipelines faster than my coffee brews. 
+                    <span class="highlight">90+ WPM keyboard ninja</span> who believes in elegant code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/bassem97" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/bassem-jadoui-85b6b9199/" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:bassemjaodui1996@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="glow-circle"></div>
+                    <div class="profile-image-wrapper">
+                        <img src="profile.jpg" alt="Bassem Jadoui" class="profile-image">
+                        <div class="profile-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Software Engineer & Full Stack Developer</h3>
+                    <p>
+                        Born in Soukra, Ariana, Tunisia (May 25, 1997), I'm a passionate software engineer 
+                        with a deep love for crafting elegant solutions to complex problems. With expertise 
+                        spanning the full stack—from React and Next.js on the frontend to Spring Boot, 
+                        Django, and Node.js on the backend—I bring ideas to life with clean, maintainable code.
+                    </p>
+                    <p>
+                        Currently serving as <strong>CO-Founder & CTO at SyntaxEror.com</strong>, alongside working as a 
+                        <strong>Fullstack Engineer at Slash.digital GmbH</strong> and 
+                        <strong>IT Technician at SPIE Network Services</strong>. I've contributed to high-traffic 
+                        e-commerce platforms like iqos.com and hauck.de, and built comprehensive e-learning 
+                        solutions from the ground up.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me streaming video games, perfecting my typing speed 
+                        (yes, I'm a 90+ WPM blind typer!), or geeking out about technology. As Dr. Stone says: 
+                        <em>"Science is elegant"</em>—and I believe the same applies to well-written algorithms.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ariana, Tunisia</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+216 55 135 774</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bassemjaodui1996@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="values">
+                        <h4>Core Values</h4>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Thoughtful & Inclusive Development</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Critical Thinking</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-users"></i>
+                                <span>Teamwork & Communication</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Continuous Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="5">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="20">0</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="90">0</h3>
+                        <p>WPM Typing Speed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="3">0</h3>
+                        <p>Languages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <!-- CO-Founder & CTO -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>CO-Founder & CTO</h3>
+                        <h4><a href="https://syntaxeror.com" target="_blank" class="company-link">SyntaxEror.com</a></h4>
+                        <ul>
+                            <li>Co-founded and leading technical strategy for a software development platform</li>
+                            <li>Architecting scalable solutions and establishing engineering best practices</li>
+                            <li>Building a collaborative environment for innovative software solutions</li>
+                            <li>Driving technical vision and product development roadmap</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Leadership</span>
+                            <span>Architecture</span>
+                            <span>Strategy</span>
+                            <span>Full Stack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SPIE Network Services -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>IT Technician (Web Automation)</h3>
+                        <h4>SPIE Network Services GmbH, München (Remote)</h4>
+                        <ul>
+                            <li>Developed Python-based web automation tool using Selenium WebDriver and ChromeDriver</li>
+                            <li>Integrated MongoDB for data validation and optimized log parsing for CI/CD workflows</li>
+                            <li>Created flowcharts to document processes, enhancing test case validation efficiency</li>
+                            <li>Streamlined login, template selection, and bulk downloads with headless browser support</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Selenium</span>
+                            <span>MongoDB</span>
+                            <span>CI/CD</span>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slash.digital -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Fullstack Engineer</h3>
+                        <h4>Slash.digital GmbH, Germany (Remote)</h4>
+                        <ul>
+                            <li>Engineered high-traffic e-commerce systems for global brands including <a href="https://www.iqos.com" target="_blank" class="inline-link">iqos.com</a> and <a href="https://www.hauck.de" target="_blank" class="inline-link">hauck.de</a></li>
+                            <li>Led redevelopment of <a href="https://www.avantgarde.net" target="_blank" class="inline-link">avantgarde.net</a> and <a href="https://www.slash.digital" target="_blank" class="inline-link">slash.digital</a> websites</li>
+                            <li>Managed API architecture, plugin development, and technical documentation</li>
+                            <li>Collaborated with nearshoring hub developers and coordinated with partner agencies</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>API Development</span>
+                            <span>E-commerce</span>
+                            <span>DXP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Devino Solutions -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Sept 2022 - Sept 2023</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Software Engineer</h3>
+                        <h4>Devino Solutions Inc, Canada (Remote)</h4>
+                        <ul>
+                            <li>Architected comprehensive e-learning platform <a href="https://unotes.net" target="_blank" class="inline-link">uNotes.net</a> using Next.js, TypeScript, Prisma, Django, and GraphQL</li>
+                            <li>Published NPM package <a href="https://www.npmjs.com/package/@bassem97/upup" target="_blank" class="inline-link">@bassem97/upup</a> for S3 document/image upload and compression</li>
+                            <li>Built <a href="https://mathanex.com" target="_blank" class="inline-link">Mathanex.com</a> using Django and ReactJS for student guidance in critical thinking</li>
+                            <li>Implemented real-time notifications using SocketJS and infinite scrolling for performance</li>
+                            <li>Managed production environment using NGINX reverse proxy and PM2 process manager</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Django</span>
+                            <span>GraphQL</span>
+                            <span>Prisma</span>
+                            <span>AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aigot Srl -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2022 - Nov 2022</div>
+                    <div class="timeline-content">
+                        <h3>Fullstack Developer</h3>
+                        <h4>Aigot Srl, Italy (Remote)</h4>
+                        <ul>
+                            <li>Developed backend services using Node.js and Express.js for restaurant operations and delivery systems</li>
+                            <li>Integrated payment gateway supporting Stripe, PayPal, and Visa</li>
+                            <li>Applied TDD/BDD methodologies using Mocha and Chai for robust functionality</li>
+                            <li>Created feedback system leveraging Google Places API for transparency and user trust</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>TDD/BDD</span>
+                            <span>Stripe</span>
+                            <span>PayPal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- We-Code -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2020 - Feb 2021</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>We-Code, Tunis, TN</h4>
+                        <ul>
+                            <li>Built microservices using Spring Boot, Node.js, and Consul service discovery with Zuul API Gateway</li>
+                            <li>Implemented WebRTC for voice and video communication solution using PeerJs</li>
+                            <li>Integrated TensorFlow for face and emotion detection APIs in real estate management apps</li>
+                            <li>Designed real estate management application using Angular 9, Spring Boot, Spring Security, and MySQL</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Spring Boot</span>
+                            <span>Microservices</span>
+                            <span>WebRTC</span>
+                            <span>TensorFlow</span>
+                            <span>Angular</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ATS Company -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2019 - Aug 2019</div>
+                    <div class="timeline-content">
+                        <h3>Trainee - End of Study Project</h3>
+                        <h4>ATS Company, Tunis, TN</h4>
+                        <ul>
+                            <li>Designed and developed complete time management web application from scratch using Angular 9</li>
+                            <li>Created comprehensive UML diagrams (use case, sequence, class, and activity diagrams)</li>
+                            <li>Built backend system using Spring Boot with scalable and secure server-side framework</li>
+                            <li>Developed robust authentication system integrating JWT and social media login (Google, Facebook)</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Angular 9</span>
+                            <span>Spring Boot</span>
+                            <span>JWT</span>
+                            <span>UML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">HTML5/CSS3</span>
+                        <span class="skill-tag">Redux</span>
+                        <span class="skill-tag">RedwoodJS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">Symfony</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Prisma</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">NGINX</span>
+                        <span class="skill-tag">PM2</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Consul</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Testing & Automation</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Selenium</span>
+                        <span class="skill-tag">Cypress</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Mocha/Chai</span>
+                        <span class="skill-tag">TDD/BDD</span>
+                        <span class="skill-tag">ChromeDriver</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://syntaxeror.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="featured-badge">
+                            <i class="fas fa-star"></i> Featured
+                        </div>
+                        <h3>SyntaxEror.com</h3>
+                        <p>Software development platform co-founded as CTO. Leading technical strategy, architecting scalable solutions, and establishing engineering best practices for innovative software development.</p>
+                        <div class="project-tags">
+                            <span>Platform</span>
+                            <span>Architecture</span>
+                            <span>Leadership</span>
+                            <span>Full Stack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://unotes.net" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>uNotes.net</h3>
+                        <p>Comprehensive e-learning platform with real-time notifications, social features, and document management. Built with Next.js, TypeScript, Prisma, Django, and GraphQL.</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Django</span>
+                            <span>GraphQL</span>
+                            <span>Prisma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://mathanex.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mathanex.com</h3>
+                        <p>Asset-based tool for student guidance in critical thinking, creative problem-solving, and communication. Developed using Django and ReactJS.</p>
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>ReactJS</span>
+                            <span>Education</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.npmjs.com/package/@bassem97/upup" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>@bassem97/upup</h3>
+                        <p>NPM package for uploading and compressing documents and images to S3 buckets. Built with TSDX for TypeScript library development.</p>
+                        <div class="project-tags">
+                            <span>TypeScript</span>
+                            <span>TSDX</span>
+                            <span>AWS S3</span>
+                            <span>NPM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://www.iqos.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IQOS.com E-commerce</h3>
+                        <p>High-traffic e-commerce platform for a global brand. Contributed to feature development, API architecture, and performance optimization.</p>
+                        <div class="project-tags">
+                            <span>E-commerce</span>
+                            <span>React</span>
+                            <span>API Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Automation Tool</h3>
+                        <p>Python-based web automation tool using Selenium WebDriver for streamlined template downloads with headless browser support for CI/CD workflows.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Selenium</span>
+                            <span>MongoDB</span>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info-section">
+                    <h3>Let's Build Something Awesome!</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities to 
+                        be part of your visions. Whether you need a full-stack developer, a web automation 
+                        expert, or someone who types faster than they think—let's connect!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:bassemjaodui1996@gmail.com">bassemjaodui1996@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+21655135774">+216 55 135 774</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ariana, Tunisia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://github.com/bassem97" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/bassem-jadoui-85b6b9199/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:bassemjaodui1996@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bassem Jadoui. Crafted with <i class="fas fa-heart"></i> and lots of coffee ☕</p>
+                <p class="footer-quote">"Science is elegant" - Dr. Stone</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
